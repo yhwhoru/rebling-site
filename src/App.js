@@ -1,3 +1,12 @@
-// App.js
-// 여기에 완성된 React + Firebase 코드가 들어갈 예정입니다.
-console.log("REBLING App 로딩됨");
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+export default function App() {
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<div className="p-10 text-center text-2xl font-bold">REBLING 명품 매입 사이트 🚀</div>} />
+      </Routes>
+    </Router>
+  );
+}
